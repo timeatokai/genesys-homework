@@ -15,5 +15,5 @@ Genesys homework assignment.
 # TODO:
 
 - add missing tests
-- avoid using endpoints in endpoint tests
+- avoid using unrelated endpoints in endpoint tests
 - add test teardown
