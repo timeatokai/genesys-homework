@@ -2,7 +2,7 @@
 
 Genesys homework assignment.
 
-# How to test:
+# How to use:
 
 1. clone the repository
     `git clone https://github.com/timeatokai/genesys-homework.git`
@@ -10,7 +10,12 @@ Genesys homework assignment.
     `pip install -r requirements.txt`
     (or `requirements-frozen.txt`, to match the exact package versions)
 3. from the repo root, run `uvicorn app.main:app --reload`
-4. the server will be available at http://127.0.0.1:8000. The interactive OpenAPI docs will be available at http://127.0.0.1:8000/docs.
+
+The server will be available at http://127.0.0.1:8000.
+
+The interactive OpenAPI docs will be available at http://127.0.0.1:8000/docs.
+
+You can run the tests with `pytest`.
 
 # TODO:
 
